@@ -1,0 +1,145 @@
+@font-face {
+    font-family: mainFont;
+    src: url(Nunito-Light.ttf);
+}
+
+* {
+    font-family: mainFont;
+}
+
+body {
+    background: url(background.jpg);
+    background-size: 100%;
+    width: 1250px;
+    max-height: fit-content;
+}
+
+p {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    display: block;
+    width: 360px;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.searchSection {
+    background-color: rgba(0, 0, 0, 0.466);
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 400px;
+    height: 800px;
+    margin: 0px;
+    text-align: center;
+    margin: -8px 8px 8px -8px;
+}
+
+.showSection {
+    display: inline-block;
+    position: relative;
+    width: 820px;
+    height: 800px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: -8px 8px 8px 8px;
+    padding-top: 20px;
+}
+
+.inputSection {
+    color: white;
+    display: inline-block;
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 17px 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.weatherBox {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100px;
+    height: 180px;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+}
+
+.titleBox {
+    color: white;
+    display: inline-block;
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nameField {
+    font-size: x-large;
+}
+
+.coordField {
+    font-size: smaller;
+}
+
+.populationField {
+    font-size: small;
+}
+
+.weather {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.temp {
+    font-size: small;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.pressure {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.humidity {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.wind {
+    font-size: xx-small;
+    text-align: center;
+}
+
+.dataTime {
+    font-size: xx-small;
+    text-align: center;
+}
